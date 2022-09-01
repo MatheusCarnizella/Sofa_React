@@ -4,7 +4,10 @@ import Navbar from './components/statics/Nav/Navbar'
 import Footer from './components/statics/Footer/Footer';
 import Home from'./pages/Home/Home';
 import Login from'./pages/Login/Login';
+import Cadastro from'./pages/Cadastro/Cadastro';
+
 import './App.css';
+
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
       <div  style={{minHeight: '100vh'}}>
         <Routes>
           <Route path="/" element={<Login />} />
+          <Route path="/Cadastro" element={<Cadastro />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Home" element={<Home />} />
         </Routes>

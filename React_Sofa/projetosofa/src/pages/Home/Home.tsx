@@ -11,7 +11,7 @@ function Home() {
             <Box>
                 <img width='100%' src="https://a-static.mlcdn.com.br/1500x1500/sofa-madri-192-super-conforto-buriti-estofados/lavinaestofado/15897026521/ce48e71e8881542354bce4ec00ef7f26.jpg" alt="" />
             </Box>
-            <Box style={{ height: '100vh' }}>
+            <Box style={{ height: '50vh' }}>
                 <Typography align='center' fontSize={50}>BEM-VINDO AO SITE DE SOFÁS</Typography>
                 <Typography align='center' fontSize={30}>Com o melhor site para você</Typography>
                 <Box>

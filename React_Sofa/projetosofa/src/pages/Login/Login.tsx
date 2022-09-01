@@ -29,9 +29,8 @@ function Login() {
                                 Cadastre-se agora:
                             </Typography>
                         </Box>
-                        <Typography variant='subtitle1' gutterBottom align='center' style={{fontWeight:'bold'}}>
-                            Cadastrar
-                        </Typography>
+                        <Button href='/Cadastro' className='loq' variant="text" style={{fontWeight:'bold'}}>Cadastrar</Button>
+
                     </Box>
                 </Box>
             </Grid>

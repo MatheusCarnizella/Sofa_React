@@ -27,7 +27,7 @@ function Navbar() {
                         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                             Teste do Sofá
                         </Typography>
-                        <Button color="inherit">Entrar / Registrar</Button>
+                        <Button href='/Cadastro' color="inherit">Entrar / Registrar</Button>
                         <Button href='/Login' color="inherit">Sair</Button>
                     </Toolbar>
                 </AppBar>

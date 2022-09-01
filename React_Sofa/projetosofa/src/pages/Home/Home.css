@@ -1,0 +1,17 @@
+.tt{
+    align-items: center;    
+}
+
+.img{
+    display: block;
+    width: 750px; 
+    height: 500px;
+    margin: 0 auto;
+
+}
+.fator{
+    position: absolute !important;
+    bottom: -300px !important;
+    left: 48%;
+}
+

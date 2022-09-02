@@ -4,7 +4,8 @@ import Navbar from './components/statics/Nav/Navbar'
 import Footer from './components/statics/Footer/Footer';
 import Home from'./pages/Home/Home';
 import Login from'./pages/Login/Login';
-import Cadastro from'./pages/Cadastro/Cadastro';
+import Cadastros from'./pages/Cadastro/Cadastro';
+import Sofas from'./pages/Sofas/Sofas'
 
 import './App.css';
 
@@ -16,9 +17,10 @@ function App() {
       <div  style={{minHeight: '100vh'}}>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/Cadastro" element={<Cadastro />} />
+          <Route path="/Cadastro" element={<Cadastros />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Home" element={<Home />} />
+          <Route path="/Sofas" element={<Sofas />} />
         </Routes>
       </div>        
       <Footer />

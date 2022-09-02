@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { GitHub, Instagram, LinkedIn } from '@material-ui/icons';
-import './Footer'
+import './Footer.css'
 
 function Footer() {
     return (
@@ -17,13 +17,13 @@ function Footer() {
                 </Toolbar>
             </AppBar>
             <Box display="flex" alignItems="center" justifyContent="center">
-                <a href="#" target="_blank">
-                    <GitHub style={{ fontSize: 52, color: "white" }} />
+                <a className='col' href="https://github.com/MatheusCarnizella/" target="_blank">
+                    <GitHub style={{ fontSize: 50, color: "white" }} />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/voiidde/" target="_blank">
                     <Instagram style={{ fontSize: 60, color: "white" }} />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/matheus-carnizella-nepomuceno-9475a9176/" target="_blank">
                     <LinkedIn style={{ fontSize: 60, color: "white" }} />
                 </a>
             </Box>

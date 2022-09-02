@@ -15,17 +15,10 @@ function Navbar() {
             <Box sx={{ flexGrow: 1 }}>
                 <AppBar position="static">
                     <Toolbar>
-                        <IconButton
-                            size="large"
-                            edge="start"
-                            color="inherit"
-                            aria-label="menu"
-                            sx={{ mr: 2 }}
-                        >
-                            <MenuIcon />
-                        </IconButton>
                         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                             Teste do Sofá
+                            <Button className='tol' href='/Sofas' color="inherit">Sofás</Button>
+                            <Button className='tol2' href='/Cadastro' color="inherit">Laudos</Button>
                         </Typography>
                         <Button href='/Cadastro' color="inherit">Entrar / Registrar</Button>
                         <Button href='/Login' color="inherit">Sair</Button>

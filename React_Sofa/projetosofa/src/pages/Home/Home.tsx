@@ -15,7 +15,7 @@ function Home() {
                 <Typography align='center' fontSize={50}>BEM-VINDO AO SITE DE SOFÁS</Typography>
                 <Typography align='center' fontSize={30}>Com o melhor site para você</Typography>
                 <Box>
-                    <Button className='fator' variant="contained">Ver sofás</Button>
+                    <Button href='/Sofas' className='fator' variant="contained">Ver sofás</Button>
                 </Box>
             </Box>
             
